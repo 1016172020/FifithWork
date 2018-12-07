@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ic_con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="81dp"
+            android:src="@drawable/ic_icon" />
+
+        <Button
+            android:id="@+id/ic_qq"
+            android:layout_width="58dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginLeft="129dp"
+            android:layout_marginBottom="69dp"
+            android:background="@drawable/ic_qq" />
+
+        <Button
+            android:id="@+id/ic_wb"
+            android:layout_width="58dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="218dp"
+            android:layout_marginLeft="218dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/ic_wb" />
+
+        <Button
+            android:id="@+id/ic_wx"
+            android:layout_width="58dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginBottom="69dp"
+            android:background="@drawable/ic_wx" />
+
+        <Button
+            android:id="@+id/ic_wy"
+            android:layout_width="58dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="308dp"
+            android:layout_marginLeft="308dp"
+            android:layout_marginBottom="69dp"
+            android:background="@drawable/ic_wy" />
+
+
+        <Button
+            android:id="@+id/ic_log"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="166dp"
+            android:background="@drawable/shape_radius"
+            android:text="手机号登陆"
+            android:textColor="#CC0033"
+            android:textSize="28dp"></Button>
+
+        <Button
+            android:id="@+id/ic_reg"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="232dp"
+            android:background="@drawable/shape_radius"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="#CC0033"
+            android:textSize="28dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
