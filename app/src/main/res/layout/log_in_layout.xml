@@ -5,20 +5,18 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/b"
+            android:id="@+id/log"
             android:layout_width="344dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="209dp"
-
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="252dp"
             android:background="@drawable/log_shape"
             android:gravity="center"
             android:text="登陆"
@@ -26,33 +24,62 @@
             android:textSize="28dp" />
 
         <ImageView
-            android:layout_width="44dp"
-            android:layout_height="35dp"
+            android:layout_width="42dp"
+            android:layout_height="67dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:layout_marginStart="22dp"
-            android:layout_marginLeft="22dp"
-            android:layout_marginTop="71dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="74dp"
             android:src="@drawable/ic_phone" />
 
         <ImageView
             android:layout_width="44dp"
             android:layout_height="35dp"
-
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="123dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="167dp"
             android:src="@drawable/ic_lock" />
+
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorRed"
-            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
-    </android.support.v7.widget.Toolbar>
 
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorBlack"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"></android.support.v7.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="261dp"
+            android:layout_height="76dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="74dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="请输入账号"
+            android:textColorHint="#000033" />
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="261dp"
+            android:layout_height="76dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="142dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="请输入密码"
+            android:textColorHint="#000033" />
     </RelativeLayout>
 </LinearLayout>
